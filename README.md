@@ -174,7 +174,6 @@ mvn test -Dtest=FundControllerTest
 ```
 MutualFundAnalyticsJava/
 ├── pom.xml                                     # Maven dependencies (Java 17, Spring Boot 3.2)
-├── DESIGN_DECISIONS.md                         # Architecture decisions
 ├── data/
 │   ├── mf_analytics.db                         # SQLite database (created on first run)
 │   └── ratelimiter_state.json                  # Rate limiter crash-recovery state
