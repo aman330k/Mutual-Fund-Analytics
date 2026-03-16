@@ -40,7 +40,7 @@ public class AnalyticsResult {
     @JsonProperty("nav_data_points")
     private int navDataPoints;
 
-    // ── Rolling returns: computed over every possible N-year window in history ──
+    //  Rolling returns: computed over every possible N-year window in history 
 
     @JsonProperty("rolling_min")
     private double rollingMin;
@@ -57,12 +57,12 @@ public class AnalyticsResult {
     @JsonProperty("rolling_p75")
     private double rollingP75;  // 75th percentile
 
-    // ── Max Drawdown: worst peak-to-trough decline ──
+    //  Max Drawdown: worst peak-to-trough decline 
 
     @JsonProperty("max_drawdown")
     private double maxDrawdown;
 
-    // ── CAGR distribution across all rolling periods ──
+    //  CAGR distribution across all rolling periods 
 
     @JsonProperty("cagr_min")
     private double cagrMin;
