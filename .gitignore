@@ -1,0 +1,30 @@
+# Compiled output
+target/
+*.class
+*.jar
+*.war
+
+# Maven wrapper jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Runtime data (SQLite DB, rate limiter state)
+data/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Secrets / env
+.env
